@@ -2,15 +2,7 @@
   margin: 0;
   padding: 0;
 }
-header {
-/*
-  background-image: url("bg.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 100px;
-*/
-}
+
 body {
   font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
   /*background-color: #ddd;*/
@@ -98,28 +90,6 @@ footer {
     margin-top: -20px;
 }
 
-/*
-.cover.portfolio-page:before {
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhhN2YyNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NkYmY0OSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
-    background-size: 100%;
-    background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#8a7f26),color-stop(100%,#cdbf49));
-    background-image: -moz-linear-gradient(top,#8a7f26,#cdbf49);
-    background-image: -webkit-linear-gradient(top,#8a7f26,#cdbf49);
-    background-image: linear-gradient(to bottom,#8a7f26,#cdbf49);
-    *zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF8A7F26',endColorstr='#FFCDBF49');
-}
-
-.cover.portfolio-page .deadline .end,.cover.portfolio-page .deadline .soon {
-    background-color: #8a7f26;
-}
-
-.cover.portfolio-page .deadline .end:after,.cover.portfolio-page .deadline .soon:after {
-    border-color: #8a7f26 transparent transparent;
-}
-
-*/
-
 .cover .cover-inner {
     display: table;
     width: auto;
@@ -150,13 +120,6 @@ footer {
     line-height: 1.42857143;
 }
 
-/*
-.cover .cover-inner .cover-content .cover-title span a{
-    color: #fff;
-}
-
-*/
-
 .cover .cover-inner .cover-content .cover-caption {
     padding-bottom: 20px;
     font-size: 19px;
@@ -180,64 +143,14 @@ footer {
 
 
 @media (max-width: 1200px) {
-/*
-    .top-main .cover-inner {
-        margin: 0 auto;
-    }
 
-    .top2 .cover-inner,.rails .cover-inner,.webrenewal-program .cover-inner,.iphone-renewal-program .cover-inner,.briefing-movies-rails .cover-inner {
-        width: auto;
-    }
-
-    .top2 .cover-inner .cover-title,.top2 .cover-inner .cover-title-briefing-movies,.rails .cover-inner .cover-title,.rails .cover-inner .cover-title-briefing-movies,.webrenewal-program .cover-inner .cover-title,.webrenewal-program .cover-inner .cover-title-briefing-movies,.iphone-renewal-program .cover-inner .cover-title,.iphone-renewal-program .cover-inner .cover-title-briefing-movies,.briefing-movies-rails .cover-inner .cover-title,.briefing-movies-rails .cover-inner .cover-title-briefing-movies {
-        font-size: 32px !important;
-    }
-
-    .briefing .cover-inner,.corporate .cover-inner {
-        width: auto;
-    }
-*/
 }
 
 @media (max-width: 1024px) {
     
-    /*
-    .cover.top-main .cover-inner {
-        width: 100% !important;
-        margin: 0 auto;
-    }
-
-    .cover.webrenewal-program .cover-inner .program-badge,.cover.iphone-renewal-program .cover-inner .program-badge {
-        top: -144px;
-        left: -144px;
-    }
-
-    .cover.webrenewal-program .cover-inner .program-badge .program-badge-txt,.cover.iphone-renewal-program .cover-inner .program-badge .program-badge-txt {
-        margin-top: 180px;
-        font-size: 15px;
-    }
-
-    .cover.webrenewal-program .cover-inner .program-badge .program-badge-txt i,.cover.iphone-renewal-program .cover-inner .program-badge .program-badge-txt i {
-        margin-bottom: 5px;
-        font-size: 26px;
-    }
-
-    .top2 .cover-inner,.rails .cover-inner,.webrenewal-program .cover-inner,.briefing-movies-rails .cover-inner {
-        width: auto;
-    }
-    
-    */
-    
 }
 
 @media (max-width: 768px) {
-    
-    /*
-    .cover.top,.cover.top2,.cover.top-main {
-        height: 400px;
-    }
-    */
-
 
     .cover .cover-inner {
         width: auto;
@@ -260,74 +173,9 @@ footer {
     .cover .cover-inner .cover-content .period b {
         font-size: 19px;
     }
-
-    /*
-    .cover .cover-inner .cover-content .future-info-wrap .future-txt {
-        font-size: 13px;
-    }
-
-    .cover .cover-inner .cover-content .deadline .end span:before {
-        padding-right: 5px;
-        font-size: 19px;
-    }
-
-    .cover .cover-inner .cover-content .deadline .soon span:before {
-        padding-right: 5px;
-        font-size: 19px;
-    }
-
-    .cover .cover-inner .cover-content .btn {
-        font-size: 13px;
-    }
-
-    .cover .cover-inner .cover-content .box-inner {
-        padding: 10px;
-    }
-
-    */
-    
 }
 
 @media (max-width: 480px) {
-
-/*
-    .cover.briefing,.cover.corporate,.cover.blog {
-        height: 300px;
-    }
-
-    .cover.webrenewal-program .cover-inner .program-badge,.cover.iphone-renewal-program .cover-inner .program-badge {
-        padding: 5px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: auto;
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    .cover.webrenewal-program .cover-inner .program-badge .program-badge-txt,.cover.iphone-renewal-program .cover-inner .program-badge .program-badge-txt {
-        margin-top: 0;
-        color: #fff;
-        font-size: 15px;
-    }
-
-    .cover.webrenewal-program .cover-inner .program-badge .program-badge-txt i,.cover.iphone-renewal-program .cover-inner .program-badge .program-badge-txt i {
-        display: inline;
-        padding-right: 5px;
-        font-size: 15px;
-    }
-
-    .cover.webrenewal-program .cover-inner .cover-content,.cover.iphone-renewal-program .cover-inner .cover-content {
-        padding-top: 40px;
-    }
-
-    .cover.webrenewal-program .cover-inner .cover-content h2 .inline-program,.cover.iphone-renewal-program .cover-inner .cover-content h2 .inline-program {
-        line-height: 1.42857143;
-    }
-    */
 
     .cover .cover-inner .cover-content .cover-title{
         font-size: 26px !important;
